@@ -1,0 +1,34 @@
+{
+  "name": "backoffice",
+  "version": "1.0.0",
+  "description": "BackOffice app web to manage a cx service company ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdiaz-2021140/BackOffice.git"
+  },
+  "author": "Insanos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pdiaz-2021140/BackOffice/issues"
+  },
+  "homepage": "https://github.com/pdiaz-2021140/BackOffice#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.9.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
